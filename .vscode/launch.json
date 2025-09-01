@@ -1,0 +1,19 @@
+// .vscode/launch.json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Modoo1",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/Modoo1",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "lldb", // macOS인 경우 "lldb", Windows는 "gdb" 또는 "cppvsdbg"
+      "preLaunchTask": "build Modoo1"
+    }
+  ]
+}

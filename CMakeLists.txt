@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(Modoo1 C)
+set(CMAKE_C_STANDARD 99)
+include_directories(include)
+file(GLOB SOURCES "src/*.c")
+add_executable(Modoo1 ${SOURCES})
