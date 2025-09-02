@@ -1,4 +1,3 @@
-// .vscode/launch.json
 {
   "version": "0.2.0",
   "configurations": [
@@ -10,9 +9,20 @@
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
-      "environment": [],
-      "externalConsole": true,
-      "MIMode": "lldb", // macOS인 경우 "lldb", Windows는 "gdb" 또는 "cppvsdbg"
+      "environment": [],      
+      // macOS 설정
+      "osx": {
+        "program": "${workspaceFolder}/build/Modoo1",
+        "externalConsole": true,
+        "MIMode": "lldb"
+      },
+      // Windows 설정
+      "windows": {
+        "program": "${workspaceFolder}/build/Modoo1.exe",
+        "externalConsole": false,
+        "MIMode": "gdb"
+      },
+      
       "preLaunchTask": "build Modoo1"
     }
   ]

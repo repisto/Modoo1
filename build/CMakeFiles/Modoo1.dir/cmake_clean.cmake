@@ -1,10 +1,14 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Modoo1.dir/src/main.c.o"
-  "CMakeFiles/Modoo1.dir/src/main.c.o.d"
-  "CMakeFiles/Modoo1.dir/src/printHello.c.o"
-  "CMakeFiles/Modoo1.dir/src/printHello.c.o.d"
-  "Modoo1"
+  "CMakeFiles/Modoo1.dir/src/main.c.obj"
+  "CMakeFiles/Modoo1.dir/src/main.c.obj.d"
+  "CMakeFiles/Modoo1.dir/src/printHello.c.obj"
+  "CMakeFiles/Modoo1.dir/src/printHello.c.obj.d"
+  "CMakeFiles/Modoo1.dir/src/utils.c.obj"
+  "CMakeFiles/Modoo1.dir/src/utils.c.obj.d"
+  "Modoo1.exe"
+  "Modoo1.exe.manifest"
   "Modoo1.pdb"
+  "libModoo1.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

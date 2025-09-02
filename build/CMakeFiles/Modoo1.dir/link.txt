@@ -1,1 +1,3 @@
-/usr/bin/clang -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Modoo1.dir/src/main.c.o CMakeFiles/Modoo1.dir/src/printHello.c.o -o Modoo1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Modoo1.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\Modoo1.dir/objects.a @CMakeFiles\Modoo1.dir\objects1.rsp
+C:\msys64\ucrt64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\Modoo1.dir/objects.a -Wl,--no-whole-archive -o Modoo1.exe -Wl,--out-implib,libModoo1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Modoo1.dir\linkLibs.rsp
