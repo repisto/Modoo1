@@ -1,3 +1,0 @@
-C:/Users/tony0/Projects/Modoo1/build/CMakeFiles/Modoo1.dir
-C:/Users/tony0/Projects/Modoo1/build/CMakeFiles/edit_cache.dir
-C:/Users/tony0/Projects/Modoo1/build/CMakeFiles/rebuild_cache.dir
